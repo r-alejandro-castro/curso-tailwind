@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
 
-    <title>tailwindcss</title>
+    <title>Tailwind - Medidas</title>
 </head>
-<body>
+<body class="bg-blue-700">
     
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <form action="" class="bg-white w-80 mx-auto mt-8 rounded-lg p-6">
+        <input class="border border-gray-300 w-full px-3 py-2 mb-4 rounded-md focus:outline-none focus:ring-1" type="text" placeholder="Nombre">
+
+        <input class="border border-gray-300 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-1 invalid:focus:ring-red-500 peer" type="email" placeholder="Correo">
+        <p class="text-red-500 hidden peer-invalid:block">El correo es incorrecto</p>
+
+        <input class="border border-gray-300 w-full px-3 py-2 mb-4 mt-4 rounded-md focus:outline-none focus:ring-1" type="password" placeholder="Contraseña">
+
+        <input class="bg-blue-500 w-full py-2 text-white rounded-md cursor-pointer hover:bg-blue-400" type="submit" placeholder="Ingresar">
+    </form>
 
 </body>
 </html>
