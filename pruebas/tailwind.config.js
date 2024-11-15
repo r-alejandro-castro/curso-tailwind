@@ -7,7 +7,7 @@ module.exports = {
       
       // Aqui vamos a poner el color deseado
       colors: {
-        'orange': '#dadd39',
+        'orangee': '#dadd39',
         'azul': '#007bff'
       },
 
@@ -21,6 +21,10 @@ module.exports = {
         '400': '400px'
 
       },
+      // Punto de quiebre (Responsive)
+      screens: {
+        'laptop': '1500px',
+      }
     },
   },
   plugins: [],
