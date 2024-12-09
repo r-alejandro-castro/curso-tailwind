@@ -8,51 +8,16 @@
 
     <title>tailwindcss</title>
 </head>
-<body class="sm:bg-blue-600 md:bg-blue-500 lg:bg-blue-400">
-    
-    <section  class="laptop:flex">
-        <div 
-        class="border-2 border-black p-5 w-80 mx-auto bg-green-500 mt-10 lg:w-96"
-        >
-            <h2 
-            class="text-xl text-black font-bold text-center p-2 sm:text-2xl lg:text-3xl"
-            >
-                Responsive
-            </h2>
-            <p
-            class="mt-4 text-black md:text-2xl"
-            >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae unde harum qui, ex, maxime architecto quia obcaecati exercitationem fugit tempora quidem dolor assumenda eos porro, quo accusamus? Laborum, cum consectetur.
-            </p>
-        </div>
-        <div 
-        class="border-2 border-black p-5 w-80 mx-auto bg-green-500 mt-10 lg:w-96"
-        >
-            <h2 
-            class="text-xl text-black font-bold text-center p-2 sm:text-2xl lg:text-3xl"
-            >
-                Responsive
-            </h2>
-            <p
-            class="mt-4 text-black md:text-2xl"
-            >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae unde harum qui, ex, maxime architecto quia obcaecati exercitationem fugit tempora quidem dolor assumenda eos porro, quo accusamus? Laborum, cum consectetur.
-            </p>
-        </div>
-        <div 
-        class="border-2 border-black p-5 w-80 mx-auto bg-green-500 mt-10 lg:w-96"
-        >
-            <h2 
-            class="text-xl text-black font-bold text-center p-2 sm:text-2xl lg:text-3xl"
-            >
-                Responsive
-            </h2>
-            <p
-            class="mt-4 text-black md:text-2xl"
-            >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae unde harum qui, ex, maxime architecto quia obcaecati exercitationem fugit tempora quidem dolor assumenda eos porro, quo accusamus? Laborum, cum consectetur.
-            </p>
-        </div>
-    </section>
-    </body>
+<body class="p-4">
+    <div class="grid grid-cols-2 gap-4 h-[100vh]">
+        <!-- Padre -->
+        <div class="card col-span-2">Header</div>
+        <!-- Hijo -->
+        <div class="card col-span-2">nav</div>
+        <div class="card">section</div>
+        <div class="card row-[3/5] col-start-2">article</div>
+        <div class="card">aside</div>
+        <div class="card col-span-2">footer</div>
+    </div>
+</body>
 </html>
