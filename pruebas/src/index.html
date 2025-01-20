@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
-
     <title>tailwindcss</title>
 </head>
-<body class="p-4">
-    <div class="grid grid-cols-2 gap-4 h-[100vh]">
-        <!-- Padre -->
-        <div class="card col-span-2">Header</div>
-        <!-- Hijo -->
-        <div class="card col-span-2">nav</div>
-        <div class="card">section</div>
-        <div class="card row-[3/5] col-start-2">article</div>
-        <div class="card">aside</div>
-        <div class="card col-span-2">footer</div>
-    </div>
+<body class="dark:bg-slate-900">
+    <label for="darkmode" class="dark:text-white">Dark Mode</label>
+    <input type="checkbox" id="darkmode">
+    <script src="./main.js"></script>
+
+    <!-- Card -->
+    <article class="w-[400px] mt-10 border rounded-lg p-3 mx-auto dark:bg-slate-800 dark:text-white">
+        <h2 class="font-bold text-lg">Title</h2>
+        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit laborum deserunt veritatis, magnam non exercitationem necessitatibus perspiciatis repellendus, officiis delectus, similique quibusdam blanditiis commodi obcaecati esse accusantium sunt modi aspernatur?</p>
+    </article>
+
 </body>
 </html>
